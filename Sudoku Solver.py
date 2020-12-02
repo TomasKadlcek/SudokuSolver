@@ -5,9 +5,7 @@ from random import shuffle
 # features. None of this code was copy pasted. I tried to solve this project as much on my own as possible.
 
 
-# Step 1: Create an empty sudoku nested list with 0 instead of blanks. For each row of 9 create a list. Optionally
-# add instead of 0 in sud_grid your own numbers from an existing unfilled sudoku and let the program finish it for
-# you...
+# Step 1: Create an empty sudoku nested list with 0 instead of blanks. For each row of 9 create a list.
 sud_grid = [[0, 0, 0, 0, 0, 0, 0, 0, 0],
             [0, 0, 0, 0, 0, 0, 0, 0, 0],
             [0, 0, 0, 0, 0, 0, 0, 0, 0],
